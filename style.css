@@ -1,0 +1,196 @@
+@charset "utf-8";
+@font-face {
+    font-family: font1;
+    src: url(coffee+teademo-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font1;
+}
+
+body{
+    background-image: url(main-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-image: url(header-background-coffee.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 0px 10px black;
+    color: white;
+}
+
+header span{
+    color: rgb(112, 17, 112);
+}
+
+header div{
+    display: flex;
+}
+
+header h1{
+    margin-left: 25%;
+    font-size: 100px;
+    margin-top: 2%;
+}
+
+header img{
+    height: 190px;
+    margin-left: 30px;
+}
+
+main{
+    margin: 50px;
+    /* height: 150px; */
+}
+
+main span{
+    color: rgb(126, 64, 28);
+}
+
+.main-cafeteria{
+    display: flex;
+    font-size: 19px;
+}
+
+.main-cafeteria img{
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+}
+
+.main-cafeteria-text{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.main-cafeteria-text p, .main-cafeteria-text h2{
+    margin-top:0.5em;
+}
+
+.main-cafeteria-text ul{
+    margin-left: 5%;
+}
+
+.main-menu{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-menu{
+    display: flex;
+    margin-left: 10%;
+}
+
+.main-menu div{
+    color: white;
+    margin-left: 10%;
+    background-color: black;
+}
+
+.main-menu div img{
+    height: 300px;
+}
+
+.main-table{
+    margin: 5%;
+    font-size: 30px;
+    display: flex;
+}
+
+.main-table img{
+    height: 200px;
+    margin-left: 70px;
+}
+
+table{
+    text-align: left;
+    margin-left: 10%;
+}
+
+table th{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table td{
+    padding-left:30px ;
+    padding-right:30px ;
+}
+
+.main-form{
+    margin-bottom: 8%;
+    width: 800px;
+    padding: 20px;
+}
+
+form{
+    width: 400px;
+}
+
+.form{
+    display: flex;
+}
+
+.form img{
+    width: 100%;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px;
+}
+
+.main-form input, textarea{
+    width: 400px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-bottom: 5px;
+    font-size: 30px;
+    box-shadow: 0px 0px 2px;
+}
+
+.main-form h2, button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.main-form button{
+    padding: 6px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 20px;
+    box-shadow: 0px 0px 2px;
+}
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-image: url(header-background-coffee.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    padding-left: 25%;
+}
+
+footer img{
+    height: 30px;
+    margin-left: 10px;
+}
+
+
